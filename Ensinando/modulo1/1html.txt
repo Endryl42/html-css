@@ -1,0 +1,4 @@
+<h1></h1>
+<p></p>
+<img src="foto.png ou url" alt="exemplo de foto">
+Link:favicon 

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de Caixas</title>
+    <style>
+        h1 { /* Box-Level */
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+            border: 10px solid darkgray;
+            /*border-width > border-style > border-color*/
+
+            padding: 10px 10px 10px 10px;
+            /* top > right > bottom > left*/
+            margin: 10px auto 10px auto;
+            /* top > right > bottom > left*/
+            outline: 10px dashed blue;
+            /*outline-width > outline-style > outline-color*/
+        }
+
+        a { /* Inline-Level */
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+        }
+
+        .novo {
+            display: inline-block;
+            background-color: lightgray;
+            height: 100px;
+            width: 100px;
+            text-align: center;
+            border: 10px solid darkgray;
+        }
+        .novo:hover{
+            background-color: gray;
+        }
+        .novo:active{
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de box-level</h1>
+    <p>Parágrafos também são box-level, mas os <a href="#">Links são exemplos de inline-level</a>vamos ver como tudo isso funciona.</p>
+
+    <div class="novo">Novos Conteúdos</div>
+    <div class="novo">Novos Conteúdos</div>
+    <div class="novo">Novos Conteúdos</div>
+    <div class="novo">Novos Conteúdos</div>
+    <div class="novo">Novos Conteúdos</div>
+    <div class="novo">Novos Conteúdos</div>
+</body>
+</html>

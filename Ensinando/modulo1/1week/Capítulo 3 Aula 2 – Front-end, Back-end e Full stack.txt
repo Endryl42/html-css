@@ -1,0 +1,9 @@
+[Front-end]
+html5,  css, javascript
+_
+[Back-end]
+php, nodejs, c#, java, ruby, python
+_
+[site estático]
+_
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Ex009 - Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+
+    <h2>Codigo fonte / Pré-formatação</h2>
+
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScriopt. E a tag usado para fazer isso é CODE.</p>
+
+    <code>
+        num = int(input('Digite um numero:'))
+        if num % 2 == 0
+            print(f'O numero {num} é PAR')
+        else
+            print(f'O numero {num} é IMPAR)
+        print('Fim do programa')
+    </code>
+
+    <p>Só que usando só a tag code, não vamos ter o texto escrito desse jeito:</p>
+
+    <pre>
+        <code>
+    num = int(input('Digite um numero:'))
+    if num % 2 == 0
+        print(f'O numero {num} é PAR')
+    else
+        print(f'O numero {num} é IMPAR)
+    print('Fim do programa')
+        </code>
+    </pre>
+
+    <p>Utilizando a tag PRE, o texto considera os espaços, quebras de linhas, tabulações. Evitando usar varias tag BR. Assim o texto a cima ficou com cara de codigo python. </p>
+
+    <h2>Citações</h2>
+
+    <p>Como diria um amigo: <q>O computador é um burro muito rapido</q>. E para transformar em uma citação é utilizado a tag Q.</p>
+
+    <h2>Citação completa</h2>
+
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:
+        <blockquote cite="https://www.google.com/search?q=jeff+noble&oq=jeff+noble&aqs=chrome..69i57j46i512l2j0i22i30l7.2810j0j7&sourceid=chrome&ie=UTF-8">
+            A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+        </blockquote>
+        e eu usei a tag blockquote para fazer isso. E use a tag CITE para referenciar a blockquote, assim faz com que o mecanismo de busca vá para o local certo.
+    </p>
+
+    <h2>Abreviações</h2>
+
+    <p>Estou estudando <abbr title="HyperText Markup Languange">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+    <p>Usar abbr para abreviar</p>
+    
+    <h2>Texto Invertido</h2>
+
+    <p><bdo dir="rtl">Oxe! que doidera</bdo>. duvido que você use, mas é a tag BDO q faz isso.</p>
+</body>
+</html>

@@ -1,0 +1,38 @@
+* {
+    /*height: 100%;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #41292C;
+}
+
+main{
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: 7px 7px 9px  #27191a;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+ p {
+    text-align: justify;
+ }
+
+ h1 {
+     color: #D72483;
+     text-align: center;
+     text-shadow: 2px 1px 2px #3a112b;
+ }
+
+ h2 {
+     color: #792359
+ }
+
+ /*
+ #2F2D2E
+ #41292C
+ #792359
+ #D72483
+ #FD3E81
+ */

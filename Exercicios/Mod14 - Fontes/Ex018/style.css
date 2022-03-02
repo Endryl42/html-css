@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*
+font-weigth: lighter, normal, bold, bolder (Para fazer negrito e mais)
+font-style: italic
+font-decoration: underline
+
+shorthand orderm font
+font-style > font-weight > font-size> font-family
+Ex:
+font: italic bolder 1.1em arial, helvica,sans-serif;
+*/
+
+body {
+    font: normal bold 1.1em Arial, Helvetica, sans-serif;
+    color: red;  
+}
+
+
+h1 {
+    font-family: 'kaushan script';
+}
+
+h2 {
+    font-family: 'work sans';
+}

@@ -1,0 +1,47 @@
+[html5]
+hypertext markup language
+	baseado em conteudo
+
+	<h1> Exemplo de título </h1>
+	<p> Exemplo de parágrafo </p>
+	<img src="foto.png" alt="exemplo de foto">
+
+abertura de tag = <h1>, <p>, <img src="" alt="">
+conteúdo = é o que está entre as tags. Ex: foto.png, exemplo de titulo.
+fechamento de tag = </h1>, </p>.
+_
+[css3]
+cascading style sheets
+	baseado em atrativo visuais
+todo final de declaração tem ";"
+
+	h1{
+	font-family: Arial;
+	font-size: 20pt;
+	color:blue;
+	}
+
+seletor = h1
+declaração = é tudo que está dentro do "{}"
+valor = blue, 20pt, Arial.
+propriedade = font-family, font-size, color.
+
+_
+[tags html]
+_
+[estrutura basica de html5]
+
+<!DOCTYPE html> diz que vai ser em html
+<html lang="pt-br">
+	<head> 
+		<meta charset="utf8">
+		<meta name="viewport" 		content="width=device-width, 		initial-scale=1.0>
+		<title>Document</title>
+	</head>
+
+	<body> 
+		<h1>Olá, Mundo!</h1>
+	</body>
+</html>
+
+_

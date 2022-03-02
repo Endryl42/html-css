@@ -1,0 +1,30 @@
+[binary digit (bit)]
+_
+[byte]
+_
+[utf-8]
+_
+[Mutiplo bytes]
+1024b = 1KB
+1024KB = 1MB
+1024MB = 1GB
+1024GB = 1TB
+1024TB = 1PB
+1024PB = EB
+_
+[bit e byte]
+_
+[Client]
+_
+[modem e getaway]
+_
+[servidor]
+_
+[IP]
+_
+[Dns]
+_
+[rotas]
+_
+[roteador]
+_

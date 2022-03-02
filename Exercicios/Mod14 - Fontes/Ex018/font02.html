@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font externas</title>
+    <style>
+        @font-face {
+            font-family: 'love';
+            src: url('love larry ttf.ttf') format('truetype');
+            font-style: normal;
+            font-weight: normal;
+
+            /* Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - enbedded-opentype
+                - truetype-aat (Apple Advanced Typography )
+            */
+        }
+
+        h1 {
+            font: normal normal 2em 'love', times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá Mundo!</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum natus odit laudantium obcaecati praesentium eum necessitatibus facilis ipsa nulla amet, saepe laborum commodi a, optio distinctio aspernatur? Quia, quae voluptate.</p>
+    <h2>subtitulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus impedit ab ut, reprehenderit sapiente quae quidem nisi eum dolores ullam, beatae rerum, sunt repellendus aut soluta tenetur? Nostrum, id excepturi!</p>
+</body>
+</html>

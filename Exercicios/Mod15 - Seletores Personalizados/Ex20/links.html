@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{ /* Quando Visitado*/
+            color: darkred;
+        }
+        a:hover { /* Quando Passar o mouse */
+            color:blue;
+            text-decoration: underline;
+        }
+        a:active {/* Quando Clicado */
+            color: green;
+        }
+        .especial {
+            background-color: rgb(187, 141, 141);
+        }
+        .especial::after { /* Depois De: */
+            content: '<<';
+        }
+        .especial::before {
+            content: '>>';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+
+        <ul>
+            <li><a href="https://github.com/Endryl42/" target="_blank" rel="external" class="especial">Repositorio GitHub</a></li>
+            <li><a href="https://www.youtube.com/channel/UCPBoozwcZ4h96UTiKSk3nFA" target="_blank" rel="external">Canal do YouTube</a></li>
+            <li><a href="https://www.linkedin.com/in/endryl-william-santana-santos-7b095a1a6/" target="_blank" rel="external">Site do Linkedin</a></li>
+        </ul>
+</body>
+</html>
+
+<!--
+    # = id
+    . = class
+    : = pseudo-class
+    :: = pseudo-element
+    > = children/filho
+
+-->

@@ -1,0 +1,20 @@
+[Url] (uniform Resource Locator)
+
+_
+[domínio]
+nome único que vai conseguir identificar o seu servidor ou as suas páginas. Para conseguir um domínio, você deve pagar pelo direito de usá-lo por um período mínimo de 1 ano.
+_
+[hospedagem]
+_
+[tld]
+GTLD: São TLDs genéricos, sem indicação de país. Alguns dos domínios genéricos são: .com, .net, .gov, .io, .info, .online, .store, etc.
+ccTLD: São TLDs com designalçao do pais (coutry code). Alguns dos domínios desse tipo são: .com.br, .edu.us, .co.fr, .jp, etc.
+_
+
+
+[sub-domínio]
+é um endereço que faz parte do domínio, ou seja, é uma ramificação do domínio. Geralmente é possível criar quantos subdomínios quiser a partir de um domínio. O subdomínio usa o domínio principal e se diferencia pela adição de um outro nome, além do nome do domínio.
+www.google.com
+images.google.com
+maps.google.com
+_

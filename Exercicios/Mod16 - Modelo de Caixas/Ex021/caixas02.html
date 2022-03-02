@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: rgb(138, 138, 138);
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        header > h1 {
+            text-align: center;
+        }
+
+        nav{
+            background-color: rgb(99, 99, 99);
+            padding: 3px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.438);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 14px 0px;
+        }
+
+        h1 {
+           text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.418);
+        }
+
+        footer{
+            background-color: darkgray;
+            color: white;
+            text-align: center;
+            padding: 10px 0px;
+            margin: 10px 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+
+        article{
+            background-color: gray;
+        }
+        article > aside{
+            background-color: rgb(82, 82, 82);
+            color: white;
+        }
+
+        #bola {
+            height: 50px;
+            width: 50px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header><!-- Cabeçalho -->
+        <h1>Meu Site</h1>
+        <nav> <!-- Menu de navegação-->
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main><!--Conteúdo Principal-->
+        <section id="assuntos"> <!-- Seção-->
+            
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Testando Grouping tags</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, quae deleniti! Quisquam nemo tempora repudiandae, repellat maiores temporibus ullam doloribus qui architecto veniam minima, sequi totam fugiat in expedita voluptates?</p>
+                <aside>
+                    <p>Escrito por Endryl42</p>
+                </aside>
+            </article>
+            <article>
+                
+            </article>
+        </section>
+    </main>
+
+    <footer><!--Rodapé-->
+        <p>Desenvolvido por Endryl42</p>
+    </footer>
+
+    <div id="bola"></div>
+</body>
+</html>
