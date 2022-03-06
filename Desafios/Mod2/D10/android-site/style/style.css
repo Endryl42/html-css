@@ -19,6 +19,7 @@ header {
 }
 header >h1 {
     padding: 42px 0px 0px 0px;
+    margin-top: 0px;
     text-align: center;
     color: white;
     font-family: 'bebas neue';
@@ -39,39 +40,93 @@ header >nav >a {
     margin: 5px;
     color: #83E1AD;
 }
+header>nav>a {
+    border-radius: 5px;
+
+}
 header>nav>a:hover{
     border: 3px solid #83E1AD;
-    border-radius: 15px;
-    transition: 0.7s;
+    transition: 0.6s;
     background-color: #83E1AD;
     color: #063D1E;
 }
 /*/header*/
 /* Main*/
 main{
-    max-width: 736px;
-    min-width: 320px;
+    width: 1100px;
     background-color: white;
     box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.438);
     color: black;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 #principal {
     padding: 20px 30px;
 }
 #principal> h1 {
     font-family: 'idroid';
     font-size: 2em;
+    color: #063D1E;
 }
 #principal> h2 {
     font-family: 'idroid';
+    background-image: linear-gradient(to right, #84E1AD, #fff);
+    color: #246D56;
+}
+#principal> p {
+    color: black;
+    font-size: 1.1em;
+    padding: 0px 0px;
+}
+#principal>p>a {
+    background-color: #84E1AD;
+    color: #063D1E;
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 1.1em;
+}
+#principal>p>a:hover {
+    text-decoration: underline;
+}
+#principal>p>a::after{
+    content: '🔗';
+}
+#picture {
+    
+}
+
+#video {
+    background-color: #063D1E;
+    margin: 20px 20px;
+}
+strong {
+    color: #246D56;
 }
 
 #extra {
-    height: 400px;
-    width: 500px;
+    padding: 0px 1px 7px 1px;
+    border-radius: 30px 20px 30px 20px;
     background-color: lightgreen;
+}
+#extra>p {
+    padding: 10px;
+}
+#extra>p>a {
+    color: #063D1E;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+#extra>p>a:hover {
+    text-decoration: underline;
+}
+#extra>p>a::after{
+    content: '🔗';
+}
+#extra>h3 {
+    background-color: #063D1E;
+    color: white;
+    padding: 15px 50px 15px 13px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 /*/main*/
@@ -80,5 +135,15 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
+}
+footer>p {
+    margin: 0px;
+}
+footer>p>a{
+    color: white;
+    text-decoration: none;
+}
+footer>p>a:hover {
+    text-decoration: underline;
 }
 /*/footer*/
